@@ -16,7 +16,7 @@
     </form> 
     <?php 
     if (isset($_POST['largeur']) && isset($_POST['hauteur'])) {
-        $largeur = intval($_POST['largeur']);
+        /*$largeur = intval($_POST['largeur']);
         $hauteur = intval($_POST['hauteur']);
         $temp = 0;
         for ($i = 0; $i <= $hauteur; $i++) {
@@ -24,13 +24,13 @@
                 if ($j = 0) {
                     echo '/';
                 } elseif ($j == $temp) {
-                    echo ""\"";
+                    echo "'\'";
                 } elseif ($j != 0 || $j != $temp) {
                     echo '_';
                 }
             }
             $temp -= 1;
-    }
+    }*/
         for ($i = 0; $i <= $hauteur; $i++) {
             if ($i == 0 || $i == $hauteur) {
                 for ($k = 0; $k <= $largeur; $k++ ) {
