@@ -1,3 +1,3 @@
-SELECT salles.nom AS nom_salle, etage.nom AS nom_etage
+SELECT salles.nom AS nom_salle, étage.nom AS nom_etage
 FROM salles
-JOIN etage ON salles.id_etage = etage.id;
+JOIN étage ON salles.id_etage = étage.id;

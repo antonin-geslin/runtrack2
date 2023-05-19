@@ -1,1 +1,1 @@
-SELECT SUM(superficie) AS superficie_totale FROM etage;
+SELECT SUM(superficie) AS superficie_totale FROM étage;
